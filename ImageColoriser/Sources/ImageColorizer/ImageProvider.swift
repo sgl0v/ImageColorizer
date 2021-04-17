@@ -1,9 +1,8 @@
 //
-//  ImageProvider.swift
-//  Coloriser-CoreML
+//  ImageColoriser
 //
-//  Created by Maksym Shcheglov on 21/10/2020.
-//  Copyright © 2020 Maksym Shcheglov. All rights reserved.
+//  Created by Maksym Shcheglov.
+//  Copyright © 2021 Maksym Shcheglov. All rights reserved.
 //
 
 import UIKit

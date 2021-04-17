@@ -1,9 +1,8 @@
 //
-//  UIImage+Lab.h
-//  Coloriser-CoreML
+//  ImageColoriser
 //
-//  Created by Maksym Shcheglov on 02/02/2020.
-//  Copyright © 2020 Maksym Shcheglov. All rights reserved.
+//  Created by Maksym Shcheglov.
+//  Copyright © 2021 Maksym Shcheglov. All rights reserved.
 //
 
 #ifndef UIImage_Lab_h

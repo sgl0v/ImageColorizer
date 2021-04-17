@@ -64,7 +64,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coloriser-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70A688A23E4D825003CA515 /* ImageColoriser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageColoriser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E70A689423E4D825003CA515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E70A689623E4D826003CA515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E70A689923E4D826003CA515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		E79B186A252680200059F0AF /* sRGB_ICC_v4_Appearance.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB_ICC_v4_Appearance.icc; sourceTree = "<group>"; };
 		E7DEC85125A396AF00A28C42 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7DEC85325A396AF00A28C42 /* ImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
-		E7DEC85425A396AF00A28C42 /* Coloriser-CoreML-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Coloriser-CoreML-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7DEC85425A396AF00A28C42 /* ImageColoriser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ImageColoriser-Bridging-Header.h"; sourceTree = "<group>"; };
 		E7DEC85525A396AF00A28C42 /* DispatchQueue+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Utils.swift"; sourceTree = "<group>"; };
 		E7DEC85625A396AF00A28C42 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E7DEC85725A396AF00A28C42 /* ImageColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageColorizer.swift; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		E70A688123E4D825003CA515 = {
 			isa = PBXGroup;
 			children = (
-				E70A688C23E4D825003CA515 /* Coloriser-CoreML */,
+				E70A688C23E4D825003CA515 /* ImageColoriser */,
 				E70A688B23E4D825003CA515 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,18 +149,18 @@
 		E70A688B23E4D825003CA515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */,
+				E70A688A23E4D825003CA515 /* ImageColoriser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E70A688C23E4D825003CA515 /* Coloriser-CoreML */ = {
+		E70A688C23E4D825003CA515 /* ImageColoriser */ = {
 			isa = PBXGroup;
 			children = (
 				E7DEC85025A396AF00A28C42 /* Sources */,
 				E7DEC86B25A396E500A28C42 /* Resources */,
 			);
-			path = "Coloriser-CoreML";
+			path = ImageColoriser;
 			sourceTree = "<group>";
 		};
 		E79B182A252678850059F0AF /* littlecms */ = {
@@ -247,7 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				E79B182A252678850059F0AF /* littlecms */,
-				E7DEC85425A396AF00A28C42 /* Coloriser-CoreML-Bridging-Header.h */,
+				E7DEC85425A396AF00A28C42 /* ImageColoriser-Bridging-Header.h */,
 				E7DEC85A25A396AF00A28C42 /* UIViewController+Utils.swift */,
 				E7DEC85525A396AF00A28C42 /* DispatchQueue+Utils.swift */,
 				E7DEC85925A396AF00A28C42 /* UIImage+Lab.h */,
@@ -272,9 +272,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E70A688923E4D825003CA515 /* Coloriser-CoreML */ = {
+		E70A688923E4D825003CA515 /* ImageColoriser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "Coloriser-CoreML" */;
+			buildConfigurationList = E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "ImageColoriser" */;
 			buildPhases = (
 				E70A688623E4D825003CA515 /* Sources */,
 				E70A688723E4D825003CA515 /* Frameworks */,
@@ -284,9 +284,9 @@
 			);
 			dependencies = (
 			);
-			name = "Coloriser-CoreML";
+			name = ImageColoriser;
 			productName = "Coloriser-CoreML";
-			productReference = E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */;
+			productReference = E70A688A23E4D825003CA515 /* ImageColoriser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E70A688523E4D825003CA515 /* Build configuration list for PBXProject "Coloriser-CoreML" */;
+			buildConfigurationList = E70A688523E4D825003CA515 /* Build configuration list for PBXProject "ImageColoriser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,7 +318,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E70A688923E4D825003CA515 /* Coloriser-CoreML */,
+				E70A688923E4D825003CA515 /* ImageColoriser */,
 			);
 		};
 /* End PBXProject section */
@@ -543,19 +543,19 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 76874MD7C6;
-				INFOPLIST_FILE = "Coloriser-CoreML/Resources/Info.plist";
+				INFOPLIST_FILE = ImageColoriser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Coloriser-CoreML",
+					"$(PROJECT_DIR)/ImageColoriser",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sgl0v.Coloriser-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgl0v.ImageColoriser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Any";
-				SWIFT_OBJC_BRIDGING_HEADER = "Coloriser-CoreML/Sources/Utils/Coloriser-CoreML-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageColoriser/Sources/Utils/ImageColoriser-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -570,19 +570,19 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 76874MD7C6;
-				INFOPLIST_FILE = "Coloriser-CoreML/Resources/Info.plist";
+				INFOPLIST_FILE = ImageColoriser/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Coloriser-CoreML",
+					"$(PROJECT_DIR)/ImageColoriser",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sgl0v.Coloriser-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sgl0v.ImageColoriser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Any";
-				SWIFT_OBJC_BRIDGING_HEADER = "Coloriser-CoreML/Sources/Utils/Coloriser-CoreML-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageColoriser/Sources/Utils/ImageColoriser-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -591,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E70A688523E4D825003CA515 /* Build configuration list for PBXProject "Coloriser-CoreML" */ = {
+		E70A688523E4D825003CA515 /* Build configuration list for PBXProject "ImageColoriser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E70A689C23E4D826003CA515 /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "Coloriser-CoreML" */ = {
+		E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "ImageColoriser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E70A689F23E4D826003CA515 /* Debug */,
