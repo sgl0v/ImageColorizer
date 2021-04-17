@@ -1,1 +1,2 @@
 *.mlmodel filter=lfs diff=lfs merge=lfs -text
+ImageColoriser/Sources/Utils/littlecms/* linguist-vendored=true
