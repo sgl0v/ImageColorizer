@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70A689523E4D825003CA515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A689323E4D825003CA515 /* Main.storyboard */; };
+		E70A689723E4D826003CA515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70A689623E4D826003CA515 /* Assets.xcassets */; };
+		E70A689A23E4D826003CA515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70A689823E4D826003CA515 /* LaunchScreen.storyboard */; };
+		E7219FB7252E4F2200A2A29A /* coremlColorizer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E7219FB6252E4F2200A2A29A /* coremlColorizer.mlmodel */; };
+		E77501EE25AF6475001E14C5 /* omar-mena-QIktihNFiYY-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77501EB25AF6475001E14C5 /* omar-mena-QIktihNFiYY-unsplash.jpg */; };
+		E77501EF25AF6475001E14C5 /* robert-godwin-cdksyTqEXzo-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77501EC25AF6475001E14C5 /* robert-godwin-cdksyTqEXzo-unsplash.jpg */; };
+		E77501F025AF6475001E14C5 /* stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E77501ED25AF6475001E14C5 /* stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg */; };
+		E799DED225AE20990079467F /* tom-prejeant-bAT7YePX_zA-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E799DED025AE20990079467F /* tom-prejeant-bAT7YePX_zA-unsplash.jpg */; };
+		E799DED325AE20990079467F /* taya-dianna-elMQ400zvpc-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E799DED125AE20990079467F /* taya-dianna-elMQ400zvpc-unsplash.jpg */; };
+		E799DED625AE23650079467F /* kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E799DED525AE23650079467F /* kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg */; };
+		E799DED925AE236B0079467F /* taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E799DED825AE236B0079467F /* taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg */; };
+		E79B1849252678850059F0AF /* cmsps2.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B182B252678850059F0AF /* cmsps2.c */; };
+		E79B184A252678850059F0AF /* cmstypes.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B182C252678850059F0AF /* cmstypes.c */; };
+		E79B184B252678850059F0AF /* cmscgats.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B182D252678850059F0AF /* cmscgats.c */; };
+		E79B184C252678850059F0AF /* cmslut.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B182E252678850059F0AF /* cmslut.c */; };
+		E79B184D252678850059F0AF /* cmsopt.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B182F252678850059F0AF /* cmsopt.c */; };
+		E79B184E252678850059F0AF /* cmssamp.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1830252678850059F0AF /* cmssamp.c */; };
+		E79B184F252678850059F0AF /* cmscnvrt.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1831252678850059F0AF /* cmscnvrt.c */; };
+		E79B1850252678850059F0AF /* cmsmtrx.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1832252678850059F0AF /* cmsmtrx.c */; };
+		E79B1851252678850059F0AF /* cmsplugin.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1833252678850059F0AF /* cmsplugin.c */; };
+		E79B1852252678850059F0AF /* cmswtpnt.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1834252678850059F0AF /* cmswtpnt.c */; };
+		E79B1853252678850059F0AF /* cmsnamed.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1835252678850059F0AF /* cmsnamed.c */; };
+		E79B1854252678850059F0AF /* cmsalpha.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1836252678850059F0AF /* cmsalpha.c */; };
+		E79B1855252678850059F0AF /* cmsio0.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1837252678850059F0AF /* cmsio0.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		E79B1856252678850059F0AF /* cmsgamma.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1838252678850059F0AF /* cmsgamma.c */; };
+		E79B1857252678850059F0AF /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = E79B1839252678850059F0AF /* Makefile.am */; };
+		E79B1858252678850059F0AF /* cmscam02.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B183A252678850059F0AF /* cmscam02.c */; };
+		E79B1859252678850059F0AF /* cmssm.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B183B252678850059F0AF /* cmssm.c */; };
+		E79B185A252678850059F0AF /* cmsxform.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B183C252678850059F0AF /* cmsxform.c */; };
+		E79B185B252678850059F0AF /* lcms2.def in Resources */ = {isa = PBXBuildFile; fileRef = E79B183D252678850059F0AF /* lcms2.def */; };
+		E79B185C252678850059F0AF /* cmsvirt.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B183E252678850059F0AF /* cmsvirt.c */; };
+		E79B185D252678850059F0AF /* cmserr.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B183F252678850059F0AF /* cmserr.c */; };
+		E79B185E252678850059F0AF /* cmsio1.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1840252678850059F0AF /* cmsio1.c */; };
+		E79B185F252678850059F0AF /* cmsgmt.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1842252678850059F0AF /* cmsgmt.c */; };
+		E79B1860252678850059F0AF /* cmspcs.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1843252678850059F0AF /* cmspcs.c */; };
+		E79B1861252678850059F0AF /* cmspack.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1844252678850059F0AF /* cmspack.c */; };
+		E79B1862252678850059F0AF /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = E79B1845252678850059F0AF /* Makefile.in */; };
+		E79B1863252678850059F0AF /* cmsmd5.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1846252678850059F0AF /* cmsmd5.c */; };
+		E79B1864252678850059F0AF /* cmsintrp.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1847252678850059F0AF /* cmsintrp.c */; };
+		E79B1865252678850059F0AF /* cmshalf.c in Sources */ = {isa = PBXBuildFile; fileRef = E79B1848252678850059F0AF /* cmshalf.c */; };
+		E79B186925267C560059F0AF /* sRGB_v4_ICC_preference.icc in Resources */ = {isa = PBXBuildFile; fileRef = E79B186825267C560059F0AF /* sRGB_v4_ICC_preference.icc */; };
+		E79B186B252680200059F0AF /* sRGB_ICC_v4_Appearance.icc in Resources */ = {isa = PBXBuildFile; fileRef = E79B186A252680200059F0AF /* sRGB_ICC_v4_Appearance.icc */; };
+		E7DEC85F25A396AF00A28C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85125A396AF00A28C42 /* ViewController.swift */; };
+		E7DEC86025A396AF00A28C42 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85325A396AF00A28C42 /* ImageProvider.swift */; };
+		E7DEC86125A396AF00A28C42 /* DispatchQueue+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85525A396AF00A28C42 /* DispatchQueue+Utils.swift */; };
+		E7DEC86225A396AF00A28C42 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85625A396AF00A28C42 /* ImagePicker.swift */; };
+		E7DEC86325A396AF00A28C42 /* ImageColorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85725A396AF00A28C42 /* ImageColorizer.swift */; };
+		E7DEC86425A396AF00A28C42 /* ImageScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85825A396AF00A28C42 /* ImageScanner.swift */; };
+		E7DEC86525A396AF00A28C42 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85A25A396AF00A28C42 /* UIViewController+Utils.swift */; };
+		E7DEC86625A396AF00A28C42 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85B25A396AF00A28C42 /* UIImage+Utils.swift */; };
+		E7DEC86725A396AF00A28C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85C25A396AF00A28C42 /* AppDelegate.swift */; };
+		E7DEC86825A396AF00A28C42 /* UIImage+Lab.mm in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85D25A396AF00A28C42 /* UIImage+Lab.mm */; settings = {COMPILER_FLAGS = "-w"; }; };
+		E7DEC86925A396AF00A28C42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DEC85E25A396AF00A28C42 /* SceneDelegate.swift */; };
+		E7ED15602629D57D00033BBD /* jordan-pulmano-PoAkzayxhYE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7ED155F2629D57D00033BBD /* jordan-pulmano-PoAkzayxhYE-unsplash.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coloriser-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70A689423E4D825003CA515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E70A689623E4D826003CA515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E70A689923E4D826003CA515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E70A689B23E4D826003CA515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7219FB6252E4F2200A2A29A /* coremlColorizer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = coremlColorizer.mlmodel; sourceTree = "<group>"; };
+		E77501EB25AF6475001E14C5 /* omar-mena-QIktihNFiYY-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "omar-mena-QIktihNFiYY-unsplash.jpg"; sourceTree = "<group>"; };
+		E77501EC25AF6475001E14C5 /* robert-godwin-cdksyTqEXzo-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robert-godwin-cdksyTqEXzo-unsplash.jpg"; sourceTree = "<group>"; };
+		E77501ED25AF6475001E14C5 /* stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg"; sourceTree = "<group>"; };
+		E799DED025AE20990079467F /* tom-prejeant-bAT7YePX_zA-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tom-prejeant-bAT7YePX_zA-unsplash.jpg"; sourceTree = "<group>"; };
+		E799DED125AE20990079467F /* taya-dianna-elMQ400zvpc-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taya-dianna-elMQ400zvpc-unsplash.jpg"; sourceTree = "<group>"; };
+		E799DED525AE23650079467F /* kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg"; sourceTree = "<group>"; };
+		E799DED825AE236B0079467F /* taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg"; sourceTree = "<group>"; };
+		E79B182B252678850059F0AF /* cmsps2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsps2.c; sourceTree = "<group>"; };
+		E79B182C252678850059F0AF /* cmstypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmstypes.c; sourceTree = "<group>"; };
+		E79B182D252678850059F0AF /* cmscgats.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscgats.c; sourceTree = "<group>"; };
+		E79B182E252678850059F0AF /* cmslut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmslut.c; sourceTree = "<group>"; };
+		E79B182F252678850059F0AF /* cmsopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsopt.c; sourceTree = "<group>"; };
+		E79B1830252678850059F0AF /* cmssamp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmssamp.c; sourceTree = "<group>"; };
+		E79B1831252678850059F0AF /* cmscnvrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscnvrt.c; sourceTree = "<group>"; };
+		E79B1832252678850059F0AF /* cmsmtrx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsmtrx.c; sourceTree = "<group>"; };
+		E79B1833252678850059F0AF /* cmsplugin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsplugin.c; sourceTree = "<group>"; };
+		E79B1834252678850059F0AF /* cmswtpnt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmswtpnt.c; sourceTree = "<group>"; };
+		E79B1835252678850059F0AF /* cmsnamed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsnamed.c; sourceTree = "<group>"; };
+		E79B1836252678850059F0AF /* cmsalpha.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsalpha.c; sourceTree = "<group>"; };
+		E79B1837252678850059F0AF /* cmsio0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsio0.c; sourceTree = "<group>"; };
+		E79B1838252678850059F0AF /* cmsgamma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsgamma.c; sourceTree = "<group>"; };
+		E79B1839252678850059F0AF /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		E79B183A252678850059F0AF /* cmscam02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmscam02.c; sourceTree = "<group>"; };
+		E79B183B252678850059F0AF /* cmssm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmssm.c; sourceTree = "<group>"; };
+		E79B183C252678850059F0AF /* cmsxform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsxform.c; sourceTree = "<group>"; };
+		E79B183D252678850059F0AF /* lcms2.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcms2.def; sourceTree = "<group>"; };
+		E79B183E252678850059F0AF /* cmsvirt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsvirt.c; sourceTree = "<group>"; };
+		E79B183F252678850059F0AF /* cmserr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmserr.c; sourceTree = "<group>"; };
+		E79B1840252678850059F0AF /* cmsio1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsio1.c; sourceTree = "<group>"; };
+		E79B1841252678850059F0AF /* lcms2_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2_internal.h; sourceTree = "<group>"; };
+		E79B1842252678850059F0AF /* cmsgmt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsgmt.c; sourceTree = "<group>"; };
+		E79B1843252678850059F0AF /* cmspcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmspcs.c; sourceTree = "<group>"; };
+		E79B1844252678850059F0AF /* cmspack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmspack.c; sourceTree = "<group>"; };
+		E79B1845252678850059F0AF /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		E79B1846252678850059F0AF /* cmsmd5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsmd5.c; sourceTree = "<group>"; };
+		E79B1847252678850059F0AF /* cmsintrp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmsintrp.c; sourceTree = "<group>"; };
+		E79B1848252678850059F0AF /* cmshalf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmshalf.c; sourceTree = "<group>"; };
+		E79B1866252678F70059F0AF /* lcms2_plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2_plugin.h; sourceTree = "<group>"; };
+		E79B1867252678F80059F0AF /* lcms2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcms2.h; sourceTree = "<group>"; };
+		E79B186825267C560059F0AF /* sRGB_v4_ICC_preference.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB_v4_ICC_preference.icc; sourceTree = "<group>"; };
+		E79B186A252680200059F0AF /* sRGB_ICC_v4_Appearance.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB_ICC_v4_Appearance.icc; sourceTree = "<group>"; };
+		E7DEC85125A396AF00A28C42 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7DEC85325A396AF00A28C42 /* ImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		E7DEC85425A396AF00A28C42 /* Coloriser-CoreML-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Coloriser-CoreML-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7DEC85525A396AF00A28C42 /* DispatchQueue+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Utils.swift"; sourceTree = "<group>"; };
+		E7DEC85625A396AF00A28C42 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E7DEC85725A396AF00A28C42 /* ImageColorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageColorizer.swift; sourceTree = "<group>"; };
+		E7DEC85825A396AF00A28C42 /* ImageScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScanner.swift; sourceTree = "<group>"; };
+		E7DEC85925A396AF00A28C42 /* UIImage+Lab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Lab.h"; sourceTree = "<group>"; };
+		E7DEC85A25A396AF00A28C42 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		E7DEC85B25A396AF00A28C42 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		E7DEC85C25A396AF00A28C42 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7DEC85D25A396AF00A28C42 /* UIImage+Lab.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+Lab.mm"; sourceTree = "<group>"; };
+		E7DEC85E25A396AF00A28C42 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7ED155F2629D57D00033BBD /* jordan-pulmano-PoAkzayxhYE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jordan-pulmano-PoAkzayxhYE-unsplash.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E70A688723E4D825003CA515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70A688123E4D825003CA515 = {
+			isa = PBXGroup;
+			children = (
+				E70A688C23E4D825003CA515 /* Coloriser-CoreML */,
+				E70A688B23E4D825003CA515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E70A688B23E4D825003CA515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70A688C23E4D825003CA515 /* Coloriser-CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				E7DEC85025A396AF00A28C42 /* Sources */,
+				E7DEC86B25A396E500A28C42 /* Resources */,
+			);
+			path = "Coloriser-CoreML";
+			sourceTree = "<group>";
+		};
+		E79B182A252678850059F0AF /* littlecms */ = {
+			isa = PBXGroup;
+			children = (
+				E79B186A252680200059F0AF /* sRGB_ICC_v4_Appearance.icc */,
+				E79B186825267C560059F0AF /* sRGB_v4_ICC_preference.icc */,
+				E79B1866252678F70059F0AF /* lcms2_plugin.h */,
+				E79B1867252678F80059F0AF /* lcms2.h */,
+				E79B182B252678850059F0AF /* cmsps2.c */,
+				E79B182C252678850059F0AF /* cmstypes.c */,
+				E79B182D252678850059F0AF /* cmscgats.c */,
+				E79B182E252678850059F0AF /* cmslut.c */,
+				E79B182F252678850059F0AF /* cmsopt.c */,
+				E79B1830252678850059F0AF /* cmssamp.c */,
+				E79B1831252678850059F0AF /* cmscnvrt.c */,
+				E79B1832252678850059F0AF /* cmsmtrx.c */,
+				E79B1833252678850059F0AF /* cmsplugin.c */,
+				E79B1834252678850059F0AF /* cmswtpnt.c */,
+				E79B1835252678850059F0AF /* cmsnamed.c */,
+				E79B1836252678850059F0AF /* cmsalpha.c */,
+				E79B1837252678850059F0AF /* cmsio0.c */,
+				E79B1838252678850059F0AF /* cmsgamma.c */,
+				E79B1839252678850059F0AF /* Makefile.am */,
+				E79B183A252678850059F0AF /* cmscam02.c */,
+				E79B183B252678850059F0AF /* cmssm.c */,
+				E79B183C252678850059F0AF /* cmsxform.c */,
+				E79B183D252678850059F0AF /* lcms2.def */,
+				E79B183E252678850059F0AF /* cmsvirt.c */,
+				E79B183F252678850059F0AF /* cmserr.c */,
+				E79B1840252678850059F0AF /* cmsio1.c */,
+				E79B1841252678850059F0AF /* lcms2_internal.h */,
+				E79B1842252678850059F0AF /* cmsgmt.c */,
+				E79B1843252678850059F0AF /* cmspcs.c */,
+				E79B1844252678850059F0AF /* cmspack.c */,
+				E79B1845252678850059F0AF /* Makefile.in */,
+				E79B1846252678850059F0AF /* cmsmd5.c */,
+				E79B1847252678850059F0AF /* cmsintrp.c */,
+				E79B1848252678850059F0AF /* cmshalf.c */,
+			);
+			path = littlecms;
+			sourceTree = "<group>";
+		};
+		E7DEC85025A396AF00A28C42 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E7DEC85C25A396AF00A28C42 /* AppDelegate.swift */,
+				E7DEC85E25A396AF00A28C42 /* SceneDelegate.swift */,
+				E7DEC85125A396AF00A28C42 /* ViewController.swift */,
+				E7DEC87325A3994C00A28C42 /* ImageColorizer */,
+				E7DEC86F25A397ED00A28C42 /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E7DEC86B25A396E500A28C42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7DEC86E25A3973400A28C42 /* Images */,
+				E70A689323E4D825003CA515 /* Main.storyboard */,
+				E70A689623E4D826003CA515 /* Assets.xcassets */,
+				E70A689823E4D826003CA515 /* LaunchScreen.storyboard */,
+				E70A689B23E4D826003CA515 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7DEC86E25A3973400A28C42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E7ED155F2629D57D00033BBD /* jordan-pulmano-PoAkzayxhYE-unsplash.jpg */,
+				E77501EB25AF6475001E14C5 /* omar-mena-QIktihNFiYY-unsplash.jpg */,
+				E77501EC25AF6475001E14C5 /* robert-godwin-cdksyTqEXzo-unsplash.jpg */,
+				E77501ED25AF6475001E14C5 /* stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg */,
+				E799DED825AE236B0079467F /* taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg */,
+				E799DED525AE23650079467F /* kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg */,
+				E799DED125AE20990079467F /* taya-dianna-elMQ400zvpc-unsplash.jpg */,
+				E799DED025AE20990079467F /* tom-prejeant-bAT7YePX_zA-unsplash.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E7DEC86F25A397ED00A28C42 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E79B182A252678850059F0AF /* littlecms */,
+				E7DEC85425A396AF00A28C42 /* Coloriser-CoreML-Bridging-Header.h */,
+				E7DEC85A25A396AF00A28C42 /* UIViewController+Utils.swift */,
+				E7DEC85525A396AF00A28C42 /* DispatchQueue+Utils.swift */,
+				E7DEC85925A396AF00A28C42 /* UIImage+Lab.h */,
+				E7DEC85D25A396AF00A28C42 /* UIImage+Lab.mm */,
+				E7DEC85B25A396AF00A28C42 /* UIImage+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E7DEC87325A3994C00A28C42 /* ImageColorizer */ = {
+			isa = PBXGroup;
+			children = (
+				E7DEC85325A396AF00A28C42 /* ImageProvider.swift */,
+				E7DEC85625A396AF00A28C42 /* ImagePicker.swift */,
+				E7DEC85825A396AF00A28C42 /* ImageScanner.swift */,
+				E7DEC85725A396AF00A28C42 /* ImageColorizer.swift */,
+				E7219FB6252E4F2200A2A29A /* coremlColorizer.mlmodel */,
+			);
+			path = ImageColorizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E70A688923E4D825003CA515 /* Coloriser-CoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "Coloriser-CoreML" */;
+			buildPhases = (
+				E70A688623E4D825003CA515 /* Sources */,
+				E70A688723E4D825003CA515 /* Frameworks */,
+				E70A688823E4D825003CA515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coloriser-CoreML";
+			productName = "Coloriser-CoreML";
+			productReference = E70A688A23E4D825003CA515 /* Coloriser-CoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E70A688223E4D825003CA515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Maksym Shcheglov";
+				TargetAttributes = {
+					E70A688923E4D825003CA515 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = E70A688523E4D825003CA515 /* Build configuration list for PBXProject "Coloriser-CoreML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E70A688123E4D825003CA515;
+			productRefGroup = E70A688B23E4D825003CA515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E70A688923E4D825003CA515 /* Coloriser-CoreML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E70A688823E4D825003CA515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79B1862252678850059F0AF /* Makefile.in in Resources */,
+				E77501EF25AF6475001E14C5 /* robert-godwin-cdksyTqEXzo-unsplash.jpg in Resources */,
+				E70A689A23E4D826003CA515 /* LaunchScreen.storyboard in Resources */,
+				E79B186925267C560059F0AF /* sRGB_v4_ICC_preference.icc in Resources */,
+				E77501F025AF6475001E14C5 /* stephanie-bergeron-AjFVsvjuSPU-unsplash.jpg in Resources */,
+				E799DED225AE20990079467F /* tom-prejeant-bAT7YePX_zA-unsplash.jpg in Resources */,
+				E799DED625AE23650079467F /* kayla-kozlowski-p6x4jGJ-oU4-unsplash.jpg in Resources */,
+				E799DED925AE236B0079467F /* taylor-kopel-WX4i1Jq_o0Y-unsplash.jpg in Resources */,
+				E79B185B252678850059F0AF /* lcms2.def in Resources */,
+				E7ED15602629D57D00033BBD /* jordan-pulmano-PoAkzayxhYE-unsplash.jpg in Resources */,
+				E70A689723E4D826003CA515 /* Assets.xcassets in Resources */,
+				E79B186B252680200059F0AF /* sRGB_ICC_v4_Appearance.icc in Resources */,
+				E799DED325AE20990079467F /* taya-dianna-elMQ400zvpc-unsplash.jpg in Resources */,
+				E77501EE25AF6475001E14C5 /* omar-mena-QIktihNFiYY-unsplash.jpg in Resources */,
+				E79B1857252678850059F0AF /* Makefile.am in Resources */,
+				E70A689523E4D825003CA515 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E70A688623E4D825003CA515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79B184B252678850059F0AF /* cmscgats.c in Sources */,
+				E7219FB7252E4F2200A2A29A /* coremlColorizer.mlmodel in Sources */,
+				E79B1855252678850059F0AF /* cmsio0.c in Sources */,
+				E79B1850252678850059F0AF /* cmsmtrx.c in Sources */,
+				E79B1853252678850059F0AF /* cmsnamed.c in Sources */,
+				E79B185D252678850059F0AF /* cmserr.c in Sources */,
+				E79B185F252678850059F0AF /* cmsgmt.c in Sources */,
+				E7DEC86925A396AF00A28C42 /* SceneDelegate.swift in Sources */,
+				E79B1849252678850059F0AF /* cmsps2.c in Sources */,
+				E7DEC86525A396AF00A28C42 /* UIViewController+Utils.swift in Sources */,
+				E79B185A252678850059F0AF /* cmsxform.c in Sources */,
+				E7DEC86625A396AF00A28C42 /* UIImage+Utils.swift in Sources */,
+				E79B184C252678850059F0AF /* cmslut.c in Sources */,
+				E7DEC86725A396AF00A28C42 /* AppDelegate.swift in Sources */,
+				E79B184D252678850059F0AF /* cmsopt.c in Sources */,
+				E79B1852252678850059F0AF /* cmswtpnt.c in Sources */,
+				E7DEC86225A396AF00A28C42 /* ImagePicker.swift in Sources */,
+				E79B1860252678850059F0AF /* cmspcs.c in Sources */,
+				E79B1856252678850059F0AF /* cmsgamma.c in Sources */,
+				E7DEC86825A396AF00A28C42 /* UIImage+Lab.mm in Sources */,
+				E79B185E252678850059F0AF /* cmsio1.c in Sources */,
+				E79B185C252678850059F0AF /* cmsvirt.c in Sources */,
+				E7DEC86325A396AF00A28C42 /* ImageColorizer.swift in Sources */,
+				E79B1864252678850059F0AF /* cmsintrp.c in Sources */,
+				E7DEC86425A396AF00A28C42 /* ImageScanner.swift in Sources */,
+				E79B1863252678850059F0AF /* cmsmd5.c in Sources */,
+				E79B1859252678850059F0AF /* cmssm.c in Sources */,
+				E7DEC86025A396AF00A28C42 /* ImageProvider.swift in Sources */,
+				E7DEC85F25A396AF00A28C42 /* ViewController.swift in Sources */,
+				E79B1851252678850059F0AF /* cmsplugin.c in Sources */,
+				E79B1861252678850059F0AF /* cmspack.c in Sources */,
+				E79B184A252678850059F0AF /* cmstypes.c in Sources */,
+				E79B184E252678850059F0AF /* cmssamp.c in Sources */,
+				E79B1854252678850059F0AF /* cmsalpha.c in Sources */,
+				E79B1858252678850059F0AF /* cmscam02.c in Sources */,
+				E79B1865252678850059F0AF /* cmshalf.c in Sources */,
+				E7DEC86125A396AF00A28C42 /* DispatchQueue+Utils.swift in Sources */,
+				E79B184F252678850059F0AF /* cmscnvrt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E70A689323E4D825003CA515 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70A689423E4D825003CA515 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E70A689823E4D826003CA515 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E70A689923E4D826003CA515 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E70A689C23E4D826003CA515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E70A689D23E4D826003CA515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70A689F23E4D826003CA515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 76874MD7C6;
+				INFOPLIST_FILE = "Coloriser-CoreML/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coloriser-CoreML",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sgl0v.Coloriser-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Any";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coloriser-CoreML/Sources/Utils/Coloriser-CoreML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E70A68A023E4D826003CA515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 76874MD7C6;
+				INFOPLIST_FILE = "Coloriser-CoreML/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coloriser-CoreML",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sgl0v.Coloriser-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Development Any";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coloriser-CoreML/Sources/Utils/Coloriser-CoreML-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E70A688523E4D825003CA515 /* Build configuration list for PBXProject "Coloriser-CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70A689C23E4D826003CA515 /* Debug */,
+				E70A689D23E4D826003CA515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E70A689E23E4D826003CA515 /* Build configuration list for PBXNativeTarget "Coloriser-CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70A689F23E4D826003CA515 /* Debug */,
+				E70A68A023E4D826003CA515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E70A688223E4D825003CA515 /* Project object */;
+}

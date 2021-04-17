@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DY8-QM-Sez">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sxi-w6-mv4">
+            <objects>
+                <navigationController id="DY8-QM-Sez" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YJP-hf-J6t">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JIs-Dm-Alr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Br6-bP-5Sg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1010" y="113"/>
+        </scene>
+        <!--Image Colorization-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Coloriser_CoreML" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Zw-P3-29w">
+                                <rect key="frame" x="8" y="96" width="398" height="758"/>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="v9E-nX-0k2">
+                                <rect key="frame" x="197" y="465" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Zw-P3-29w" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="3DQ-PC-OnT"/>
+                            <constraint firstItem="0Zw-P3-29w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="CuN-m3-UnO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Zw-P3-29w" secondAttribute="bottom" constant="8" id="Pse-mC-FNK"/>
+                            <constraint firstItem="v9E-nX-0k2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZmD-nI-W1z"/>
+                            <constraint firstItem="0Zw-P3-29w" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="dAF-iK-EwJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Zw-P3-29w" secondAttribute="trailing" constant="8" id="npC-o5-W2g"/>
+                            <constraint firstItem="0Zw-P3-29w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="qvV-y2-ket"/>
+                            <constraint firstItem="v9E-nX-0k2" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="rFy-Zv-E8t"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Image Colorization" id="F1H-Bd-XzJ">
+                        <barButtonItem key="rightBarButtonItem" title="Open" id="mTG-W7-8LE">
+                            <connections>
+                                <action selector="openImage:" destination="BYZ-38-t0r" id="GAm-OL-nhx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="v9E-nX-0k2" id="9MH-cI-45O"/>
+                        <outlet property="imageView" destination="0Zw-P3-29w" id="3za-Tn-VDf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="113"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
